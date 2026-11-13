@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "David Villa",
+      "email": "davidvilla@gmail.com",
+      "password": "password123",
+      "userType": "consumer",
+      "platforms": []
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "email": "john@provider.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Provider Lane, NY",
+      "password": "password123",
+      "userType": "provider",
+      "platforms": [
+        "Amazon Prime",
+        "Netflix",
+        "Disney Plus"
+      ]
+    },
+    {
+      "name": "Arun",
+      "email": "arun@gmail.com",
+      "address": "egsdehyg",
+      "phone": "7678789876",
+      "password": "12345678",
+      "dob": "2008-08-28",
+      "userType": "consumer",
+      "platforms": [],
+      "id": 3
+    },
+    {
+      "name": "Raju",
+      "email": "raju@gmail.com",
+      "address": "egsdehyg",
+      "phone": "7678789876",
+      "password": "123456",
+      "dob": "2008-08-28",
+      "userType": "provider",
+      "platforms": [],
+      "id": 4
+    },
+    {
+      "name": "ardra",
+      "email": "ardra@gmail",
+      "address": "asariparambil",
+      "phone": "808935296",
+      "password": "1234567890",
+      "dob": "2006-07-16",
+      "userType": "consumer",
+      "platforms": [],
+      "id": 5
+    },
+    {
+      "name": "ardra",
+      "email": "ardra@gmail.com",
+      "address": "asariparambil",
+      "phone": "7678789876",
+      "password": "1234567890",
+      "dob": "2006-07-16",
+      "userType": "consumer",
+      "platforms": [],
+      "id": 6
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "providerId": 2,
+      "providerName": "John Smith",
+      "consumerId": 101,
+      "consumerName": "Alexander Richardson",
+      "consumerEmail": "alexander.richardson@example.com",
+      "platform": "Netflix",
+      "fromDate": "2026-07-02T15:00",
+      "toDate": "2026-07-02T19:00",
+      "requestedDate": "6/20/2026",
+      "status": "Pending"
+    }
+  ]
+}
